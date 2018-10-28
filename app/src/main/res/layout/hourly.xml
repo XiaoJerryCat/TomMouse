@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="70dp"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        tools:text="09:00"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:id="@+id/hourly_time"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/content_description"
+        tools:src="@drawable/weather_icon_200"
+        android:layout_marginTop="1dp"
+        android:id="@+id/hourly_icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="1dp"
+        android:id="@+id/hourly_type"
+        tools:text="大风"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:text="38°"
+        android:layout_marginLeft="2dp"
+        android:textSize="14sp"
+        android:id="@+id/hourly_tmp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"/>
+
+</LinearLayout>
